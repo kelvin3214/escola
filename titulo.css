@@ -29,7 +29,38 @@ p#name{
 p#K{
   height: 0px;
   text-align: right;
-  margin-right: 1007px;
-  margin-top:2px;
-  margin-left: 170px;
+  margin-right: 984px;
+  margin-top: 3px;
+  margin-left: 190px;
+}
+p#F{
+  margin-top: 30px;
+  padding-left: 135px;
+  font-weight: bold;
+  font-size:18.72px;
+  width: 0px;
+  height: 0px;
+
+}
+p#another
+{
+  padding-left: 177px;
+  width: 200px;
+  height: 0px;
+  text-align: right;
+  margin-bottom: 30px;
+}
+p#disciplina{
+  margin-left: 133px;
+  width: 0px;
+  height: 0px;
+}
+p#ano{
+  margin-left: 260px;
+}
+p#fessora{
+  margin-left: 133px;
+}
+p#titulo{
+  text-align: center;
 }
