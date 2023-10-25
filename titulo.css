@@ -63,4 +63,6 @@ p#fessora{
 }
 p#titulo{
   text-align: center;
+  line-height: 30px;
+  padding-top: 10px;  
 }
