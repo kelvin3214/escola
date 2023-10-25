@@ -20,10 +20,16 @@ p#name{
   font-size:18.72px;
   font-weight: bold;
   text-align: center;
-  padding-top: 230px;
-  padding-right: 1000px;
+  margin-top: 230px;
+  margin-right: 1000px;
   height: 0px;
+  width: 10px;
+  margin-left:135px ;
 }
-p{
+p#K{
   height: 0px;
+  text-align: right;
+  margin-right: 1007px;
+  margin-top:2px;
+  margin-left: 170px;
 }
