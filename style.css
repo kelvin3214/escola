@@ -1,0 +1,28 @@
+*{
+  line-height:25px ;
+}
+li{
+  text-decoration: none;
+
+}
+p{
+ text-indent: 5px;
+}
+h1{
+  text-align: center;
+}
+h2{
+ padding: 0px 0px 0px 45px;
+}
+footer{
+  background-color: gray;
+}
+footer p {
+  text-align: center;
+  margin: auto;
+  margin: 0px 0px -10px 0px;
+  width: 0px 0px -10px -10px;
+}
+body{
+  margin:0px;
+}
