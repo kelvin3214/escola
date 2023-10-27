@@ -52,8 +52,8 @@ p#another
 }
 p#disciplina{
   margin-left: 133px;
-  width: 0px;
-  height: 0px;
+  width: 100px;
+  height: 1px;
 }
 p#ano{
   margin-left: 260px;
