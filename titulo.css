@@ -5,6 +5,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  background-attachment: fixed;
 }
 h2{
   text-align: right;
@@ -16,53 +17,24 @@ h1{
   height: 0px;
   text-align: center;
 }
-p#name{
- font-size:18.72px;
- font-weight: bold;
- text-align: center;
- margin-top: 230px;
- margin-right: 1000px;
- height: 0px;
- width: 10px;
- margin-left:135px ;
-}
 p#K{
-  height: 0px;
-  text-align: right;
-  margin-right: 984px;
-  margin-top: 3px;
-  margin-left: 190px;
+margin-top: 434px;
+padding-left: 10px;
+width:1000px;
 }
 p#F{
-  margin-top: 30px;
-  padding-left: 135px;
-  font-weight: bold;
-  font-size:18.72px;
-  width: 0px;
+  padding-left: 10px;
+  width: 1000px;
   height: 0px;
-
-}
-p#another
-{
-  padding-left: 177px;
-  width: 200px;
-  height: 0px;
-  text-align: right;
-  margin-bottom: 30px;
-}
-p#disciplina{
-  margin-left: 133px;
-  width: 100px;
-  height: 1px;
-}
-p#ano{
-  margin-left: 260px;
-}
-p#fessora{
-  margin-left: 133px;
 }
 p#titulo{
   text-align: center;
   line-height: 30px;
   padding-top: 10px;  
+}
+p#Fessora{
+  text-align: left;
+  width: 800px;
+  height: 0px;
+  padding-left: 250px;
 }
