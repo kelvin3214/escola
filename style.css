@@ -10,23 +10,26 @@
 }
 body{
   margin:0px;
-  
+  background-color: #5CBBF7;
 }
 li{
   text-decoration: none;
+  color:#1d1e20;
 }
 p{
  text-indent: 5px;
- color: #2EA7DB;
+ 
 }
 h1{
   text-align: center;
+  color: #36F562;
+  text-shadow: 1px 1px 6px black;
 }
 h2{
  padding: 0px 0px 0px 45px;
 }
 footer{
-  background-color: gray;
+  background-color: black;
 }
 footer p {
   text-align: center;
@@ -35,5 +38,6 @@ footer p {
   width: 0px 0px -10px -10px;
 }
 h2.name{
-  color: #2EDB9E;
+  color: #5CF75E;
+  text-shadow: 2px 2px 6px black;
 }
