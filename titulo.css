@@ -2,39 +2,57 @@
   padding: 0px;
   margin: 0px;
 }
+:root{
+ color: #57BDE6;
+ color: #5763E6;
+ color: #5790E6;
+ color: #49E6E0;
+ color: #7350E6;
+}
 body{
   margin: 0px;
   padding: 0px;
   background-attachment: fixed;
+  background-color: #5790E6;
 }
 h2{
   text-align: right;
   padding: 10px 10px 1px 0px;
   margin-bottom: 10px;
   display: block;
+  color: #7350E6;
+  background-color: #5790E6;
+  text-shadow: 1px 1px 3px black;
 }
 h1{
   height: 0px;
   text-align: center;
+  color: #7350E6;
+  background-color: #3faeda;
+  text-shadow: 1px 1px 3px black;
 }
 p#K{
 margin-top: 434px;
 padding-left: 10px;
 width:1000px;
+color: #4049b3;
 }
 p#F{
   padding-left: 10px;
   width: 1000px;
   height: 0px;
-}
-p#titulo{
-  text-align: center;
-  line-height: 30px;
-  padding-top: 10px;  
+  color: #4049b3;
 }
 p#Fessora{
   text-align: left;
   width: 800px;
   height: 0px;
   padding-left: 250px;
+  color: #4049b3;
+}
+p#titulo{
+  text-align: center;
+  line-height: 30px;
+  padding-top: 10px; 
+  color: #4049b3; 
 }

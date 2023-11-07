@@ -1,12 +1,23 @@
 *{
   line-height:25px ;
 }
+:root{
+ color: #2EDB9E;
+ color: #2EA7DB;
+ color: #2EDBD9;
+ color: #2EDB63;
+ color: #2B6EDB;
+}
+body{
+  margin:0px;
+  
+}
 li{
   text-decoration: none;
-
 }
 p{
  text-indent: 5px;
+ color: #2EA7DB;
 }
 h1{
   text-align: center;
@@ -23,6 +34,6 @@ footer p {
   margin: 0px 0px -10px 0px;
   width: 0px 0px -10px -10px;
 }
-body{
-  margin:0px;
+h2.name{
+  color: #2EDB9E;
 }
