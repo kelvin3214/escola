@@ -10,7 +10,7 @@
 }
 body{
   margin:0px;
-  background-color: #2d8bc9;
+  
 }
 li{
   text-decoration: none;
@@ -26,7 +26,8 @@ h1{
   color: #DEE9F7;
   text-shadow: 2px 2px 5px black;
   font-size: 40px;
-
+  background-color: #2B6EDB;
+  padding: 10px;
 }
 h2{
  padding: 0px 0px 0px 45px;
