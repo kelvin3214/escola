@@ -10,20 +10,23 @@
 }
 body{
   margin:0px;
-  background-color: #5CBBF7;
+  background-color: #2d8bc9;
 }
 li{
   text-decoration: none;
-  color:#1d1e20;
+ color: black;
 }
 p{
  text-indent: 5px;
- 
+ color: #6f4ab4;
+ font-size: 17px;
 }
 h1{
   text-align: center;
-  color: #36F562;
-  text-shadow: 1px 1px 6px black;
+  color: #DEE9F7;
+  text-shadow: 2px 2px 5px black;
+  font-size: 40px;
+
 }
 h2{
  padding: 0px 0px 0px 45px;
@@ -38,6 +41,6 @@ footer p {
   width: 0px 0px -10px -10px;
 }
 h2.name{
-  color: #5CF75E;
-  text-shadow: 2px 2px 6px black;
+  color: #95BEF7;
+  text-shadow: 2px 2px 4px black;
 }

@@ -20,14 +20,14 @@ h2{
   padding: 10px 10px 1px 0px;
   margin-bottom: 10px;
   display: block;
-  color: #7350E6;
+  color: #EB5C33;
   background-color: #5790E6;
   text-shadow: 1px 1px 3px black;
 }
 h1{
   height: 0px;
   text-align: center;
-  color: #7350E6;
+  color: #EB5C33;
   background-color: #3faeda;
   text-shadow: 1px 1px 3px black;
 }
@@ -54,8 +54,15 @@ p#titulo{
   text-align: center;
   line-height: 30px;
   padding-top: 10px; 
-  color: #343b8d; 
+  color:black;
+  font-size: 18px;
 }
-a {
-padding-left: 1300px;
+a{
+ margin-left: 1300px;
+ text-decoration: none;
+ width: 100px;
+ height: 0px;
+}
+a:hover{
+text-decoration: underline;
 }
