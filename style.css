@@ -1,61 +1,73 @@
 *{
-  line-height:25px ;
   margin: 0px;
   padding: 0px;
 }
 :root{
- color: #2EDB9E;
- color: #2EA7DB;
- color: #2EDBD9;
- color: #2EDB63;
- color: #2B6EDB;
+  --cor0: #c5ebd6;
+  --cor1: #83e1ad;
+  --cor2: #3ddc84;
+  --cor3: #2fa866;
+  --cor4: #1a5c37;
+  --cor5: #063d1e;
 }
 body{
- background-color: #2EA7DB;
+ background-color: #BDD9F2;
  background-attachment: fixed;
+ font-family:var(--fonte-padrao)
 }
-li{
-  text-decoration: none;
- color: black;
-}
-p{
- text-indent: 5px;
- color: #6f4ab4;
- font-size: 17px;
-}
-h1{
+header{
+  background-image: linear-gradient(to bottom,#2a3e64,#182540);
   text-align: center;
-  color: #DEE9F7;
-  text-shadow: 2px 2px 5px black;
-  font-size: 40px;
-  background-color: #2B6EDB;
-  padding: 10px;
-  margin: 0px;
+  padding-top: 40px;
+  min-height: 100px;
+  color: white;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  article > ul{
+padding: 10px;
+  }
+  main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548) ;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  footer > p{
+    text-align: center;
+    background-color: #253759;
+   padding: 3px;
+   color: white;
+   text-shadow: 1px 1px 3px black;
+  }
+  h2.name{
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
 }
 h2{
- padding: 0px 0px 0px 45px;
+  padding-bottom: 5px;
+  background-image: linear-gradient(to right, #BDD9F2,transparent);
+  color: #37507e;
+  padding-left: 7px;
+  text-shadow: 1px 1px 1px black;
 }
-footer{
-  background-color: black;
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
 }
-footer p {
-  text-align: center;
-  margin: auto;
-  margin: 0px 0px -10px 0px;
-  width: 0px 0px -10px -10px;
-}
-h2.name{
-  color: #95BEF7;
-  text-shadow: 2px 2px 4px black;
-}
-main{
-  background-color: #2EDB63;
-  border-radius: 0px 0px 10px 10px;
-  margin: auto;
-  min-width: 300px;
-  max-width: 1000px;
-  padding: 20px;
-}
-nav{
-  list-style-position: inside;
+ul > li{
+  line-height: 30px;
 }

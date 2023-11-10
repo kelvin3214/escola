@@ -13,42 +13,41 @@ body{
   margin: 0px;
   padding: 0px;
   background-attachment: fixed;
-  background-color: #5790E6;
+  background-color: #BDD9F2;
 }
 h2{
   text-align: right;
   padding: 10px 10px 1px 0px;
   margin-bottom: 10px;
   display: block;
-  color: #EB5C33;
-  background-color: #5790E6;
+  color: #253759;
   text-shadow: 1px 1px 3px black;
-
 }
 h1{
   height: 0px;
   text-align: center;
-  color: #EB5C33;
+  color: #1f2f52;
   text-shadow: 1px 1px 3px black;
+  font-size: 40px;
 }
 p#K{
 margin-top: 434px;
 padding-left: 10px;
 width:1000px;
-color: #b133eb;
+color: black;
 }
 p#F{
   padding-left: 10px;
   width: 1000px;
   height: 0px;
-  color: #b133eb;
+  color: black;
 }
 p#Fessora{
   text-align: left;
   width: 800px;
   height: 0px;
   padding-left: 250px;
-  color: #b133eb;
+  color: black;
 }
 p#titulo{
   text-align: center;
