@@ -1,5 +1,7 @@
 *{
   line-height:25px ;
+  margin: 0px;
+  padding: 0px;
 }
 :root{
  color: #2EDB9E;
@@ -9,8 +11,8 @@
  color: #2B6EDB;
 }
 body{
-  margin:0px;
-  
+ background-color: #2EA7DB;
+ background-attachment: fixed;
 }
 li{
   text-decoration: none;
@@ -28,6 +30,7 @@ h1{
   font-size: 40px;
   background-color: #2B6EDB;
   padding: 10px;
+  margin: 0px;
 }
 h2{
  padding: 0px 0px 0px 45px;
@@ -44,4 +47,15 @@ footer p {
 h2.name{
   color: #95BEF7;
   text-shadow: 2px 2px 4px black;
+}
+main{
+  background-color: #2EDB63;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  min-width: 300px;
+  max-width: 1000px;
+  padding: 20px;
+}
+nav{
+  list-style-position: inside;
 }
