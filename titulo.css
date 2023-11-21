@@ -75,6 +75,7 @@ a{
  height: 0px;
  max-width: 1366px;
  max-height: 615px;
+ color: blue;
 }
 a:hover{
 text-decoration: underline;
