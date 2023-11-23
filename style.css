@@ -52,6 +52,7 @@ p{
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 17px;
+  padding-left: 5px;
 }
 h2{
   padding-bottom: 5px;
@@ -60,13 +61,14 @@ h2{
   padding-left: 7px;
   text-shadow: 1px 1px 1px black;
 }
-::marker {
-  unicode-bidi: isolate;
+::marker{
+  unicode-bidi: plaintext;
   font-variant-numeric: tabular-nums;
   text-transform: none;
-  text-indent: 0px !important;
-  text-align: start !important;
-  text-align-last: start !important;
+  text-indent: 10px;
+  text-align: start;
+  text-align-last: start;
+  list-style-position: inside;
 }
 ul > li{
   line-height: 30px;
