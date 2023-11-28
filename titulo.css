@@ -9,11 +9,12 @@
  color: #49E6E0;
  color: #7350E6;
 }
-body {
+body, html {
   margin: 0px;
   padding: 0px;
   background-attachment: fixed;
   background-color: #BDD9F2;
+  height: 0px;
 }
 h2{
   text-align: right;
@@ -21,7 +22,7 @@ h2{
   margin-bottom: 10px;
   display: block;
   color: #253759;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
   max-width: 1366px;
   max-height: 651px;
 }
@@ -29,13 +30,13 @@ h1{
   height: 0px;
   text-align: center;
   color: #1f2f52;
-  text-shadow: 1px 1px 3px black;
+  text-shadow: 1px 1px 2px black;
   font-size: 40px;
   max-width: 1366px;
   max-height: 651px;
 }
 p#K{
-margin-top: 434px;
+  margin-top: 418px;
 padding-left: 10px;
 width:1000px;
 color: black;
@@ -69,9 +70,9 @@ p#titulo{
   max-height: 615px;
 }
 a{
- margin-left: 1300px;
+  margin-left: 1280px;
  text-decoration: none;
- width: 100px;
+ width: 0px;
  height: 0px;
  max-width: 1366px;
  max-height: 615px;
@@ -79,4 +80,19 @@ a{
 }
 a:hover{
 text-decoration: underline;
+}
+p#data{
+  width: 0px;
+  height: 0px;
+  color: white;
+  background-color: black;
+  width: 666px;
+  padding-left:700px;
+  height: 19px;
+}
+p#data:hover{
+  color: gray;
+}
+abbr{
+  text-decoration: none;
 }

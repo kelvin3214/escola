@@ -25,8 +25,8 @@ header{
   font-family: Arial, Helvetica, sans-serif;
   }
   article > ul{
-padding: 10px;
-  }
+    padding: 10px;
+     }
   main{
     background-color: white;
     min-width: 300px;
@@ -60,15 +60,6 @@ h2{
   color: #37507e;
   padding-left: 7px;
   text-shadow: 1px 1px 1px black;
-}
-::marker{
-  unicode-bidi: plaintext;
-  font-variant-numeric: tabular-nums;
-  text-transform: none;
-  text-indent: 10px;
-  text-align: start;
-  text-align-last: start;
-  list-style-position: inside;
 }
 ul > li{
   line-height: 30px;
