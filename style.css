@@ -64,3 +64,6 @@ h2{
 ul > li{
   line-height: 30px;
 }
+footer > p:hover{
+color: #BDD9F2; 
+}

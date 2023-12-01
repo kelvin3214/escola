@@ -85,14 +85,15 @@ p#data{
   width: 0px;
   height: 0px;
   color: white;
-  background-color: black;
+  background-color:#253759;;
   width: 666px;
   padding-left:700px;
   height: 19px;
-}
-p#data:hover{
-  color: gray;
+ text-shadow: 1px 1px 2px black;
 }
 abbr{
   text-decoration: none;
+}
+p:hover#data{
+  color: #BDD9F2; 
 }
